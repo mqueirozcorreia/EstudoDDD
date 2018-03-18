@@ -1,4 +1,4 @@
-#Introdução
+# Introdução
 Padrões de projetos são excelentes formas de aplicar soluções validadas para problemas conhecidos.
 
 De toda forma, aplicar soluções onde não existe ou existirá o problema, pode gerar um custo grande no desenvolvimento. A arquitetura emergente fala um pouco disso, de entender que a arquitetura é algo que evolui com o sistema, assim como o negócio.
@@ -9,14 +9,14 @@ Repare, o objetivo não é deixar de ter padrões de projetos, mas sim saber esc
 
 Uma coisa é fato, ter um arquiteto fora do time é como ter área de desenvolvimento separada do teste. As pessoas interagem menos, tomam decisões sem pensar no todo e podem ter um custo maior para manter decisões impostas.
 
-#O que não é?
+# O que não é?
 Como disse o Eduardo Pires "O DDD não é uma receita pronta sobre como desenvolver uma arquitetura baseada em Presentation, Services, Application, Domain e Infra." [3]
 
-#Quando usar DDD
+# Quando usar DDD
 Gosto muito deste texto da Graziella Bonizi da Lambda3
 "O DDD é voltado para domínios complexos, e depende da quebra de barreiras de comunicação entre especialistas de negócio e especialistas técnicos, além do engajamento do time técnico em programar de forma que o código reflita o domínio. Se uma dessas variáveis for negativa, provavelmente o DDD não serve para o cenário que você está lidando." [1]
 
-#Arquitetura Emergente
+# Arquitetura Emergente
 É importante também perceber que não se deve aplicar o DDD em todo o projeto. Deve-se buscar quais as entidades mais importantes para o negócio e entender aquelas mais simples, como um CRUD.
 
 Veja o exemplo abaixo:
@@ -34,7 +34,7 @@ Dicas interessantes de um segundo artigo da Graziella da Lambda3  [2]:
 Eduardo Pires também comenta que não é necessário implementar todas as camadas para ter o DDD:
 "O DDD não prega a necessidade de uma arquitetura de 4 camadas (Presentation, Application, Domain e Infra). Pelo contrário, o arquiteto tem a liberdade de definir o melhor estilo arquitetural para atender a necessidade da aplicação, podendo utilizar modelos simples de 3 camadas como o Table Module Pattern."[3]
 
-#Implementações
+# Implementações
 Uma implementação muito conhecida para .net é o ASP.NET Boilerplate, que tem a implementação das 4 camadas para o DDD:
 
 "Presentation Layer: Provides an interface to the user. Uses the Application Layer to achieve user interactions.
@@ -46,7 +46,7 @@ Infrastructure Layer: Provides generic technical capabilities that support highe
 
 
 
-#Fontes
+# Fontes
 [0] [Livro "Domain-Driven Design: Tackling Complexity in the Heart of Software (Inglês)" do Eric Evans (Autor)] (http://amzn.to/2G1o9mZ)
 [1] https://www.lambda3.com.br/2017/10/desmistificando-o-ddd/
 [2] https://www.lambda3.com.br/2017/11/ddd-aplicado-case-fluxo-de-producao-de-equipamentos-por-demanda/
