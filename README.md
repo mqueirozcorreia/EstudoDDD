@@ -54,10 +54,16 @@ Infrastructure Layer: Provides generic technical capabilities that support highe
 
 # Fontes
 [0] [Livro "Domain-Driven Design: Tackling Complexity in the Heart of Software (Inglês)" do Eric Evans (Autor)] (http://amzn.to/2G1o9mZ)
+
 [1] https://www.lambda3.com.br/2017/10/desmistificando-o-ddd/
+
 [2] https://www.lambda3.com.br/2017/11/ddd-aplicado-case-fluxo-de-producao-de-equipamentos-por-demanda/
+
 [3] http://www.eduardopires.net.br/2016/08/ddd-nao-e-arquitetura-em-camadas/
+
 [4] https://aspnetboilerplate.com/Pages/Documents/NLayer-Architecture
+
 https://www.pluralsight.com/courses/domain-driven-design-fundamentals
+
 https://www.lambda3.com.br/2016/10/podcast-14-domain-driven-design/
 
